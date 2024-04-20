@@ -18,7 +18,7 @@ const EditNote = ({onSubmit,onAddTag,availableTags}:EditNoteProps) => {
     onAddTag={onAddTag} 
     availableTags={availableTags}
     title={note.title}
-    markdown={note.title}
+    markdown={note.markdown}
     tags={note.tags}
     />
     </>
