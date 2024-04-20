@@ -86,7 +86,7 @@ const NoteList = ({availableTags,notes}:NoteListProps) => {
 
 const NoteCard = ({id,title,tags}:SimplefiedNote) => {
     return  (
-        <Card as={Link} to={`7${id}`}
+        <Card as={Link} to={`/${id}`}
         className={`h100 text-reset text-decoration-none ${styles.card}`}>
             <Card.Body>
                 <Stack gap={2} className='align-items-center justify-content-center h-100'>
